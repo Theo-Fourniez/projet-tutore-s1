@@ -1,0 +1,910 @@
+.mark,
+mark {
+  background: rgba(76, 156, 255, 0.671) !important;
+  padding: 0 !important;
+}
+body {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+nav {
+  background-color: #044883;
+}
+.navbar-nav .nav-item a.nav-link {
+  color: #fff;
+  font-size: 2.8em;
+  border-right: 2px solid #fff;
+  display: inline;
+  padding-left: 0;
+  margin-left: 5px;
+}
+.square {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  animation: animout 0.6s ease-in-out both;
+  -webkit-animation: animout 0.6s ease-in-out both;
+  -moz-animation: animout 0.6s ease-in-out both;
+  flex-wrap: nowrap;
+}
+.square.rose {
+  background-color: #e71d73;
+}
+.square.orange {
+  background-color: #eb8915;
+}
+.square.vert {
+  background-color: #d7db2d;
+}
+.navbar-nav .nav-item:hover > .square {
+  animation: animin 0.6s ease-in-out both;
+  -webkit-animation: animin 0.6s ease-in-out both;
+  -moz-animation: animin 0.6s ease-in-out both;
+}
+@keyframes animin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(50deg);
+  }
+}
+@keyframes animout {
+  from {
+    transform: rotate(50deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+.navbar-nav.n2 .nav-item {
+  font-size: 0.5em;
+  font-weight: 700;
+}
+ul.navbar-nav.n2.position-relative {
+  top: 60px;
+  right: 113px;
+}
+.navbar-nav.n2 .nav-item a {
+  border-right: 0;
+}
+#nav-last {
+  border-right: 0;
+}
+.navbar-nav.ml-auto {
+  border-left: 2px solid #fff;
+}
+#logo_iut {
+  padding: 10px;
+  border-right: 2px solid #fff;
+  width: 7vw;
+}
+ul.navbar-nav.ml-auto li.nav-item a.nav-link.logo_social {
+  border-right: none;
+  vertical-align: middle;
+  margin: 0 10px;
+  padding: 0;
+}
+.logo_social:hover {
+  filter: invert(25%);
+}
+.carre-container {
+  position: relative;
+  display: inline-block;
+}
+.carre-container img {
+  border: 5px solid #044883;
+  border-bottom: none;
+  margin-top: 5vh;
+  display: block;
+  width: 100%;
+}
+.carre-container .text-card {
+  color: #000;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 25vw;
+  width: 30vw;
+}
+.carre-container .text-card h3 {
+  font-size: 4.5vw;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 2vw;
+}
+.carre-container .text-card h4 {
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 1.6vw;
+}
+.carre-container .text-card ul {
+  font-size: 1.5em;
+  font-family: "Helvetica Neue";
+  text-transform: none;
+  list-style-type: none;
+  text-align: left;
+}
+.carre-container .text-card ul li p {
+  margin-bottom: 0;
+}
+.carre-container div#ins-tech-sligo h3 {
+  font-size: 2.6vw;
+}
+.carre-container div#ins-tech-sligo h4 {
+  margin-bottom: 1vw;
+  font-size: 1.3vw;
+}
+.carre-container div#ins-tech-dundalk h3 {
+  margin-bottom: 1vw;
+  font-size: 2.3vw;
+  margin-top: 2.6vw;
+}
+.carre-container div#ins-tech-dundalk h4 {
+  margin-bottom: 1vw;
+  font-size: 1.3vw;
+}
+.carre-container div#univ-pablo-olavide h3 {
+  margin-bottom: 0.5vw;
+  font-size: 3vw;
+  margin-top: 2vw;
+}
+.carre-container div#univ-pablo-olavide h4 {
+  margin-bottom: 0.8vw;
+  font-size: 1.5vw;
+}
+.carre-container div.text-card#univ-pablo-olavide {
+  height: 22vw;
+}
+.carre-container div.text-card#it_larissa h3 {
+  margin-bottom: 0.5vw;
+  margin-top: 3.5vw;
+  font-size: 2.5vw;
+}
+.carre-container div.text-card#it_larissa h4 {
+  margin-bottom: 1vw;
+  font-size: 1.2vw;
+}
+.carre-container div.text-card#it_larissa {
+  height: 22vw;
+}
+.carre-container div.text-card#univ_varsovie h3 {
+  margin-bottom: 0.5vw;
+  margin-top: 1vw;
+  font-size: 2.6vw;
+}
+.carre-container div.text-card#univ_varsovie h4 {
+  margin-bottom: 1vw;
+  font-size: 1.2vw;
+}
+.carre-container div.text-card#univ_timisoara h3 {
+  margin-bottom: 0.5vw;
+  margin-top: 2.5vw;
+  font-size: 2.6vw;
+}
+.carre-container div.text-card#univ_timisoara h4 {
+  margin-bottom: 1.5vw;
+  font-size: 1.2vw;
+}
+.carre-container div.text-card#cegep_montreal h3 {
+  margin-bottom: 0.5vw;
+  margin-top: 2.5vw;
+  font-size: 2.6vw;
+}
+.carre-container div.text-card#cegep_montreal h4 {
+  margin-bottom: 1.5vw;
+  font-size: 1.2vw;
+}
+.carre-container div.text-card#kosen_tohoku h3 {
+  margin-bottom: 0.5vw;
+  margin-top: 2.7vw;
+  font-size: 2.6vw;
+}
+.carre-container div.text-card#kosen_tohoku h4 {
+  margin-bottom: 1.5vw;
+  font-size: 1.2vw;
+}
+li.p1:before {
+  content: "";
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  background-image: url(../img/account.png);
+  background-repeat: no-repeat;
+}
+li.p2:before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 36px;
+  margin-right: 10px;
+  background-image: url(../img/clipboard-icon.svg);
+  background-repeat: no-repeat;
+}
+li.p3:before {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 34px;
+  margin-right: 10px;
+  background-image: url(../img/language-icon.svg);
+  background-repeat: no-repeat;
+}
+li.p4:before {
+  content: "";
+  display: inline-block;
+  width: 33px;
+  height: 32px;
+  margin-right: 10px;
+  background-image: url(../img/timetable-icon.svg);
+  background-repeat: no-repeat;
+}
+button.ensavoirplus {
+  background-color: #044883;
+  border-style: none;
+  border-radius: 0;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Tw Cen MT";
+  font-weight: 700;
+  padding: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+button.ensavoirplus:hover {
+  background-color: #0658a0;
+  color: #dbdbdb;
+  transition: all ease-in-out 0.2s;
+}
+form button.ensavoirplus {
+  z-index: 100;
+}
+.ensavoirplus:focus {
+  outline: 0;
+}
+.twcenmt {
+  font-family: "Tw Cen MT";
+}
+.helveticaneue {
+  font-family: "Helvetica Neue";
+  text-transform: none;
+  font-size: 2em;
+}
+p.ligne_gauche {
+  border-left: 1px solid #044883;
+  padding-left: 10px;
+  margin-left: 5vw;
+  margin-right: 2vw;
+}
+.col-12 p.ligne_gauche {
+  font-size: 2em;
+}
+#faq,
+#stages_etranger {
+  margin-top: 4vh;
+}
+.searchbox {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #044883;
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Helvetica Neue";
+  width: 35vw;
+  height: 7vh;
+  cursor: pointer;
+  outline: 0;
+}
+.searchbox::placeholder {
+  transition: 0.5s;
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-size: 34px 34px;
+  background-position: 11vw;
+  transition: all 0.5s ease-in-out;
+}
+.searchbox:focus::placeholder {
+  transition: all 0.5s ease-in-out;
+  background-position: 3% center;
+  opacity: 0;
+}
+ul.sommaire {
+  margin-top: 2vh;
+  font-size: 1.18vw;
+  text-align: left;
+  list-style: url(../img/puce_bleue_sm.svg);
+}
+ul.sommaire li a {
+  color: #000;
+  text-decoration: none;
+}
+ul.sommaire li a:hover {
+  transition: 0.2s;
+  color: #4b4b4b;
+  text-decoration: none;
+}
+.container-fluid h1 {
+  padding-top: 1vh;
+  font-size: 5em;
+  margin-bottom: 0;
+  margin-left: 3vw;
+}
+.container-fluid h2 {
+  font-size: 4em;
+}
+h2#etudes_etranger,
+h2#stages_etranger {
+  display: inline-block;
+  width: auto;
+  border-bottom: 2px solid #044883;
+  padding: 0 20px 5px;
+  margin-bottom: 40px;
+}
+.text-center {
+  text-align: center;
+}
+.container-fluid hr {
+  padding: 0;
+  margin: 0;
+  background-color: #044883;
+  border-width: 4px;
+  margin-right: 35vw;
+  margin-left: -10vw;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+h1 ~ hr {
+  -moz-box-shadow: 0 1px 5px 0 #656565;
+  -webkit-box-shadow: 0 1px 5px 0 #656565;
+  -o-box-shadow: 0 1px 5px 0 #656565;
+  box-shadow: 0 1px 5px 0 #656565;
+}
+.container-fluid hr.hr-2 {
+  border-width: 2px;
+  margin-bottom: 50px;
+  margin-right: 60vw;
+  margin-left: 0.2vw;
+  margin-top: 0;
+}
+.container-fluid hr.hr-3 {
+  border-width: 2px;
+  margin-bottom: 50px;
+  margin-right: 19vw;
+  margin-left: 19vw;
+  margin-top: 0;
+}
+.container-fluid hr.hr-4 {
+  border-width: 2px;
+  margin-bottom: 50px;
+  margin-right: 32vw;
+  margin-left: 32vw;
+  margin-top: 0;
+}
+.footer {
+  text-align: center;
+  margin-top: 4vh;
+  font-size: 1em;
+  color: #989898;
+}
+h2#contact {
+  border-bottom: 2px solid #044883;
+  margin-bottom: 4vh;
+  margin-top: 2vh;
+}
+.accordion input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.row.accordion {
+  display: flex;
+}
+.row.accordion .col {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.row.accordion .col:last-child {
+  margin-left: 1em;
+}
+.accordion .tabs {
+  overflow: hidden;
+  width: 75%;
+}
+.accordion .tab {
+  overflow: hidden;
+  font-size: 2vw;
+  margin-bottom: 2vh;
+}
+.accordion .tab-label {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+  background: #fff;
+  border: 2px solid #044883;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.accordion .tab-label:hover {
+  border: 2px solid #0763b4;
+}
+.accordion .tab-label::before {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+.accordion .tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: #fff;
+  transition: all 0.35s;
+  text-transform: none;
+  font-family: "Helvetica Neue";
+  opacity: 0;
+  font-size: 1.5vw;
+}
+.accordion input:checked + .tab-label {
+  border-color: #0763b4;
+  margin-bottom: 0;
+}
+.accordion input:checked + .tab-label::before {
+  transform: rotate(90deg);
+}
+.accordion input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+  opacity: 1;
+}
+@media (max-width: 1750px) {
+  .carre-container div#ins-tech-sligo h3 {
+    font-size: 2.3vw;
+  }
+  .carre-container div#ins-tech-sligo h4 {
+    margin-bottom: 0.7vw;
+    font-size: 1vw;
+  }
+  .carre-container div#ins-tech-dundalk h3 {
+    margin-bottom: 0.7vw;
+    font-size: 2vw;
+    margin-top: 2.3vw;
+  }
+  .carre-container div#ins-tech-dundalk h4 {
+    margin-bottom: 0.7vw;
+    font-size: 1vw;
+  }
+  .carre-container div#univ-pablo-olavide h3 {
+    margin-bottom: 0.2vw;
+    font-size: 2.7vw;
+    margin-top: 1.7vw;
+  }
+  .carre-container div#univ-pablo-olavide h4 {
+    margin-bottom: 0.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#univ-pablo-olavide {
+    height: 22vw;
+  }
+  .carre-container div.text-card#it_larissa h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 3.5vw;
+    font-size: 2.5vw;
+  }
+  .carre-container div.text-card#it_larissa h4 {
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#it_larissa {
+    height: 22vw;
+  }
+  .carre-container div.text-card#univ_varsovie h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+    font-size: 2.6vw;
+  }
+  .carre-container div.text-card#univ_varsovie h4 {
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#univ_timisoara h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 2.5vw;
+    font-size: 2.6vw;
+  }
+  .carre-container div.text-card#univ_timisoara h4 {
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#cegep_montreal h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 2.5vw;
+    font-size: 2.6vw;
+  }
+  .carre-container div.text-card#cegep_montreal h4 {
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#kosen_tohoku h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 2.7vw;
+    font-size: 2.6vw;
+  }
+  .carre-container div.text-card#kosen_tohoku h4 {
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+  }
+}
+@media (max-width: 1567px) {
+  .navbar-nav .nav-item a.nav-link {
+    font-size: 2.5em;
+  }
+  ul.navbar-nav.n2.position-relative li a.nav-link {
+    font-size: 2.8em;
+  }
+  .carre-container .text-card h3 {
+    font-size: 3.5vw;
+  }
+  .carre-container .text-card h4 {
+    font-size: 1.5vw;
+  }
+  .carre-container .text-card ul {
+    font-size: 1.2vw;
+  }
+  .searchbox::placeholder {
+    background-position: 9vw;
+    transition: all 0.5s ease-in-out;
+  }
+}
+@media (max-width: 1492px) {
+  .navbar-nav .nav-item a.nav-link {
+    font-size: 2.3em;
+  }
+  ul.navbar-nav.n2.position-relative {
+    top: 50px;
+    right: 95px;
+  }
+  ul.navbar-nav.n2.position-relative li a.nav-link {
+    font-size: 2.3em;
+  }
+  .navbar-nav.ml-auto {
+    margin-left: 0 !important;
+  }
+  .square {
+    height: 40px;
+    width: 40px;
+  }
+  .navbar-nav.ml-auto li img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 1394px) {
+  .navbar-nav .nav-item a.nav-link {
+    font-size: 2em;
+  }
+  #logo_iut {
+    padding: 5px;
+    border-right: 2px solid #fff;
+    width: 6.7vw;
+  }
+  ul.navbar-nav.n2.position-relative {
+    top: 45px;
+    right: 96px;
+  }
+  .square {
+    height: 30px;
+    width: 30px;
+  }
+  .navbar-nav.ml-auto li img {
+    width: 50px;
+    height: 50px;
+  }
+  .carre-container .text-card h4 {
+    font-size: 1.2vw;
+    margin-bottom: 0;
+  }
+  .carre-container .text-card ul {
+    font-size: 1.2vw;
+  }
+  .container-fluid hr {
+    margin-right: 20vw;
+    margin-left: -100vw;
+  }
+  .container-fluid hr.hr-2 {
+    margin-right: 45vw;
+    margin-left: 0;
+  }
+  .container-fluid hr.hr-3 {
+    margin-right: 7vw;
+    margin-left: 7vw;
+  }
+}
+@media (max-width: 1236px) {
+  .navbar-nav .nav-item a.nav-link {
+    font-size: 1.9em;
+  }
+  .square {
+    height: 25px;
+    width: 25px;
+  }
+  .carre-container .text-card h3 {
+    font-size: 3.1vw;
+  }
+  .carre-container .text-card h4 {
+    font-size: 1.3vw;
+    margin-bottom: 0;
+  }
+  .carre-container .text-card ul {
+    font-size: 1.2vw;
+  }
+  .searchbox::placeholder {
+    background-position: 7vw;
+  }
+  ul.sommaire {
+    font-size: 1.5vw;
+  }
+  .carre-container div#ins-tech-dundalk h3 {
+    margin-bottom: 0.5vw;
+    font-size: 1.7vw;
+    margin-top: 2vw;
+  }
+  .carre-container div#ins-tech-dundalk h4 {
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
+  }
+  .carre-container div#univ-pablo-olavide h3 {
+    margin-bottom: 0.2vw;
+    font-size: 2vw;
+    margin-top: 1.7vw;
+  }
+  .carre-container div#univ-pablo-olavide h4 {
+    margin-bottom: 0.2vw;
+    font-size: 1vw;
+  }
+  .carre-container div.text-card#it_larissa h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+    font-size: 2.2vw;
+  }
+  .carre-container div.text-card#it_larissa h4 {
+    margin-bottom: 0.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#univ_varsovie h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 1.3vw;
+    font-size: 2.2vw;
+  }
+  .carre-container div.text-card#univ_varsovie h4 {
+    margin-bottom: 0.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#univ_timisoara h3 {
+    margin-bottom: 0.2vw;
+    margin-top: 1vw;
+    font-size: 2.6vw;
+  }
+  .carre-container div.text-card#univ_timisoara h4 {
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#cegep_montreal h3 {
+    margin-bottom: 0.2vw;
+    margin-top: 1vw;
+    font-size: 2.6vw;
+  }
+  .carre-container div.text-card#cegep_montreal h4 {
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#kosen_tohoku h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+    font-size: 2.3vw;
+  }
+  .carre-container div.text-card#kosen_tohoku h4 {
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+  }
+}
+@media (max-width: 1100px) {
+  .carre-container .text-card ul {
+    margin-bottom: 0;
+  }
+  .carre-container .text-card h3 {
+    font-size: 2.7vw;
+  }
+  .carre-container .text-card h4 {
+    font-size: 1.1vw;
+    margin-bottom: 0;
+  }
+  .carre-container .text-card ul {
+    font-size: 1.2vw;
+  }
+}
+@media (max-width: 991px) {
+  .container-fluid hr {
+    margin-right: -1.55vw;
+    margin-left: -10vw;
+    margin-bottom: 30px;
+  }
+  .container-fluid .col-12 {
+    text-align: center;
+  }
+  .footer {
+    font-size: 1em;
+  }
+  #logo_iut {
+    width: 10vw;
+  }
+  .carre-container .text-card {
+    height: 80% !important;
+    width: 70% !important;
+  }
+  .carre-container .text-card h3 {
+    font-size: 6vw !important;
+  }
+  .carre-container .text-card h4 {
+    font-size: 4.5vw !important;
+    margin-bottom: 0;
+  }
+  .carre-container .text-card ul {
+    font-size: 4vw !important;
+  }
+  .searchbox::placeholder {
+    background-position: 4vw;
+  }
+  .searchbox {
+    width: 75vw;
+  }
+  ul.sommaire {
+    font-size: 2.5vw;
+  }
+  .container-fluid hr.hr-2 {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2.5vh;
+  }
+  .container-fluid hr.hr-3 {
+    margin-right: 7vw;
+    margin-left: 7vw;
+  }
+  .container-fluid h1 {
+    padding-top: 0;
+    font-size: 4.5em;
+  }
+  .container-fluid h2 {
+    font-size: 3em;
+  }
+  .container-fluid p:not(.footer) {
+    font-size: 1.7em;
+  }
+  .accordion .tab {
+    font-size: 1.35em;
+  }
+  .accordion .tab-content {
+    font-size: 1.1em;
+  }
+  .accordion .tabs {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #logo_iut {
+    width: 18vw;
+  }
+  .container-fluid .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.8em;
+  }
+  .container-fluid hr {
+    margin-right: 0;
+    margin-left: -10vw;
+    margin-bottom: 0;
+  }
+  .carre-container .text-card h3 {
+    font-size: 5.3vw !important;
+  }
+  .carre-container .text-card h4 {
+    font-size: 3.2vw !important;
+  }
+  .carre-container .text-card ul {
+    font-size: 3vw !important;
+  }
+  .searchbox::placeholder {
+    background-position: 1vw;
+  }
+  .searchbox {
+    background-position: 1vw;
+    height: 5.5vh;
+    width: 90vw;
+  }
+  ul.sommaire {
+    font-size: 3.5vw;
+  }
+  .container-fluid hr.hr-3 {
+    margin-right: 3.5vw;
+    margin-left: 3.5vw;
+  }
+  .footer {
+    font-size: 1.5em;
+  }
+  .accordion .tab {
+    font-size: 1.3em;
+  }
+  .carre-container div#ins-tech-dundalk h3 {
+    margin-bottom: 0.5vw;
+    font-size: 1.7vw;
+    margin-top: 2vw;
+  }
+  .carre-container div#ins-tech-dundalk h4 {
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
+  }
+  .carre-container div#univ-pablo-olavide h3 {
+    margin-bottom: 0.2vw;
+    font-size: 2vw;
+    margin-top: 5.5vw;
+  }
+  .carre-container div#univ-pablo-olavide h4 {
+    margin-bottom: 0.2vw;
+    font-size: 1vw;
+  }
+  .carre-container div.text-card#it_larissa h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 4vw;
+    font-size: 2.2vw;
+  }
+  .carre-container div.text-card#it_larissa h4 {
+    margin-bottom: 0.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#univ_varsovie h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 1.6vw;
+    font-size: 2.2vw;
+  }
+  .carre-container div.text-card#univ_varsovie h4 {
+    margin-bottom: 0.3vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#univ_timisoara h3 {
+    margin-bottom: 0.2vw;
+    margin-top: 3.5vw;
+    font-size: 2.6vw;
+  }
+  .carre-container div.text-card#univ_timisoara h4 {
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#cegep_montreal h3 {
+    margin-bottom: 0.2vw;
+    margin-top: 5vw;
+    font-size: 2.6vw;
+  }
+  .carre-container div.text-card#cegep_montreal h4 {
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+  }
+  .carre-container div.text-card#kosen_tohoku h3 {
+    margin-bottom: 0.5vw;
+    margin-top: 5vw;
+    font-size: 2.3vw;
+  }
+  .carre-container div.text-card#kosen_tohoku h4 {
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+  }
+}

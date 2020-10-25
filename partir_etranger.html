@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Les étudiants de l'IUT de Lens peuvent étudier à l'étranger ou y effectuer leur stage de fin d'année."
+    />
+    <title>IUT De Lens - Partir à l'étranger</title>
+    <link rel="icon" href="img/logo_iut_noir.ico" />
+    <link rel="stylesheet" href="css/style_partiretranger.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-xl">
+      <a class="navbar-brand" href="index.html"
+        ><img src="img/logo_iut.svg" alt="logo iut" id="logo_iut"
+      /></a>
+      <div class="menu-container d-xl-none">
+        <div class="carre " id="menu-front" onclick="menuX(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div class="carre menu-carre-2"></div>
+        <div class="carre menu-carre-3"></div>
+        <div id="myNav" class="overlay">
+          <div class="overlay-content twcenmt">
+            <a href="index.html" class="overlay-title">Iut de lens</a>
+            <a href="objectifs.html" class="overlay-text">Objectifs</a>
+            <a href="pagecv.html" class="overlay-text">Page CV</a>
+            <a href="formulaire.html" class="overlay-text">Formulaire</a>
+            <div class="overlay-two">
+              <a
+                href="http://ent.univ-artois.fr/"
+                class="overlay-text"
+                target="_blank"
+                >Ent</a
+              >
+              <a
+                href="https://www.gestionedt.emploisdutempssrc.net/"
+                class="overlay-text"
+                target="_blank"
+                >Edt</a
+              >
+            </div>
+
+            <div class="social-icon">
+              <a href="https://www.instagram.com/iutdelens/" target="_blank"
+                ><img src="img/instagram-logo.svg" alt="logo instagram"
+              /></a>
+              <a href="https://www.facebook.com/IUT.DE.LENS/" target="_blank"
+                ><img src="img/facebook-logo.svg" alt="logo facebook"
+              /></a>
+              <a href="https://twitter.com/IUTdeLens" target="_blank"
+                ><img src="img/twitter-logo.svg" alt="logo twitter"
+              /></a>
+              <a
+                href="https://fr.linkedin.com/school/iut-de-lens/"
+                target="_blank"
+                ><img src="img/linked-in.svg" alt="logo linkedin"
+              /></a>
+              <a
+                href="https://www.youtube.com/user/servicecomiut"
+                target="_blank"
+                ><img src="img/youtube-logo.svg" alt="logo youtube"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <div class="square rose"></div>
+            <a class="nav-link" href="objectifs.html">Objectifs</a>
+          </li>
+          <li class="nav-item">
+            <div class="square orange"></div>
+            <a class="nav-link text-nowrap" href="pagecv.html">Page CV</a>
+          </li>
+          <li class="nav-item">
+            <div class="square vert"></div>
+            <a class="nav-link" id="nav-last" href="formulaire.html"
+              >Formulaire</a
+            >
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              href="https://www.instagram.com/iutdelens/"
+              class="nav-link logo_social"
+              target="_blank"
+              ><img src="img/instagram-logo.svg" alt="logo instagram"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.facebook.com/IUT.DE.LENS/"
+              class="nav-link logo_social"
+              target="_blank"
+              ><img src="img/facebook-logo.svg" alt="logo facebook"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://twitter.com/IUTdeLens"
+              class="nav-link logo_social"
+              target="_blank"
+              ><img src="img/twitter-logo.svg" alt="logo twitter"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://fr.linkedin.com/school/iut-de-lens/"
+              class="nav-link logo_social"
+              target="_blank"
+              ><img src="img/linked-in.svg" alt="logo linkedin"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.youtube.com/user/servicecomiut"
+              class="nav-link logo_social"
+              target="_blank"
+              ><img src="img/youtube-logo.svg" alt="logo youtube"
+            /></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav n2 position-relative">
+          <li class="nav-item">
+            <a
+              href="http://ent.univ-artois.fr/"
+              class="nav-link"
+              target="_blank"
+              >ENT</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.gestionedt.emploisdutempssrc.net/"
+              class="nav-link"
+              target="_blank"
+              >EDT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid twcenmt">
+      <div class="row">
+        <div class="col-12 col-lg-10">
+          <h1>Partir à l'étranger</h1>
+          <hr />
+        </div>
+        <div class="col-12 col-lg-2">
+          <ul class="sommaire">
+            <li><a href="#etudes_etranger">Les études à l'étranger</a></li>
+            <li><a href="#stages_etranger">Les stages à l'étranger</a></li>
+            <li><a href="#faq">Foire aux questions</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12">
+        <h2 id="etudes_etranger">Les études à l'étranger</h2>
+        <p class="helveticaneue ligne_gauche">
+          Les étudiants qui le souhaitent ont la possibilité d’effectuer un
+          semestre d’études au cours de leur 2<sup>e</sup> année de DUT ou au
+          cours de leur année de licence professionnelle.<br />
+          Pour cela, les étudiants doivent poser leur candidature au cours
+          l’année qui précède leur départ.
+        </p>
+      </div>
+      <div class="col-12">
+        <h2 class="text-center">Les établissements partenaires de l'iut</h2>
+        <hr class="hr-3" />
+        <input type="text" placeholder="Rechercher" class="searchbox mx-auto" />
+      </div>
+      <!-- PARTIE ETUDES A LETRANGER ETABLISSEMENTS -->
+      <div class="row justify-content-center text-center">
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_uqac.jpg"
+            alt="image etablissement uqac"
+          />
+          <div class="text-card" id="uqac">
+            <h3>UQAC</h3>
+            <h4>Université du Quebec à Chicoutimi</h4>
+            <ul>
+              <li class="p1">Etudiants de tous les départements en DUT2</li>
+              <li class="p2">
+                3 places , possibilité de plus selon les années
+              </li>
+              <li class="p3">Français</li>
+              <li class="p4">De début janvier à fin avril</li>
+            </ul>
+          </div>
+          <form action="https://www.uqac.ca/" target="_blank">
+            <button class="ensavoirplus">En savoir +</button>
+          </form>
+        </div>
+
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_bci_bishops.jpg"
+            alt="image etablissement bishop's"
+          />
+          <div class="text-card" id="crepuq-bci">
+            <h3>CREPUQ-BCI</h3>
+            <h4>
+              Conférence des Recteurs Et Principaux des Universités du Québec
+            </h4>
+            <ul>
+              <li class="p1">Etudiants de tous les départements en DUT2</li>
+              <li class="p2">Places non limitées</li>
+              <li class="p3">Français</li>
+              <li class="p4">De début janvier à fin avril</li>
+            </ul>
+          </div>
+          <form action="https://echanges-etudiants.bci-qc.ca/" target="_blank">
+            <button class="ensavoirplus">
+              En savoir +
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_institute_sligo.jpg"
+            alt="image etablissement sligo institute"
+          />
+          <div class="text-card" id="ins-tech-sligo">
+            <h3>Institute of Technology Sligo</h3>
+            <h4>Irlande – programme Erasmus+</h4>
+            <ul>
+              <li class="p1">
+                Etudiants de la licence professionnele Métiers du Tourisme
+              </li>
+              <li class="p2">3 places</li>
+              <li class="p3">Anglais niveau B2</li>
+              <li class="p4">De début janvier à fin avril</li>
+            </ul>
+          </div>
+          <form
+            action="https://www.itsligo.ie/study-at-it-sligo/international-students/students/erasmus/"
+            target="_blank"
+          >
+            <button class="ensavoirplus">En savoir +</button>
+          </form>
+        </div>
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_institute_dundalk.jpg"
+            alt="image etablissement institute dundalk"
+          />
+          <div class="text-card" id="ins-tech-dundalk">
+            <h3>Dundalk Institute of Technology</h3>
+            <h4>Irlande – programme Erasmus+</h4>
+            <ul>
+              <li class="p1">
+                Etudiants de DUT Informatique ou MMI et de la LP Métiers du
+                Tourisme.
+              </li>
+              <li class="p2">
+                1 étudiant MMI et INFO et 1 étudiant de LP CITHECS
+              </li>
+              <li class="p3">Français</li>
+              <li class="p4">De début janvier à fin avril</li>
+            </ul>
+          </div>
+          <form action="https://www.dkit.ie/" target="_blank">
+            <button class="ensavoirplus">
+              En savoir +
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_pablo_olavide.jpg"
+            alt="image etablissement pablo olavide"
+          />
+          <div class="text-card" id="univ-pablo-olavide">
+            <h3>Université Pablo Olavide</h3>
+            <h4>Espagne – programme Erasmus+</h4>
+            <ul>
+              <li class="p1">Etudiants de DUT TC et GEA</li>
+              <li class="p2">2 étudiants</li>
+              <li class="p3">Espagnol niveau B1</li>
+              <li class="p4">De début janvier à fin avril</li>
+            </ul>
+          </div>
+          <form
+            action="https://www.upo.es/portal/impe/web/portada?lang=en"
+            target="_blank"
+          >
+            <button class="ensavoirplus">En savoir +</button>
+          </form>
+        </div>
+      </div>
+      <!-- FIN PARTIE ETUDES A LETRANGER ETABLISSEMENTS -->
+      <!-- LES STAGES A L'ETRANGER -->
+      <div class="col-12">
+        <h2 id="stages_etranger">Les stages à l'étranger</h2>
+        <p class="helveticaneue ligne_gauche">
+          Les étudiants peuvent effectuer leur stage de 2<sup>e</sup> année ou
+          de licence professionnelle sous la forme d’un projet de fin d’études
+          au sein d’un établissement partenaire.<br />
+          Les étudiants de DUT 1 postulent en juin pour un stage qui se déroule
+          en 2<sup>e</sup> année.<br />
+          Les étudiants de Licence Professionnelle postulent en septembre pour
+          leur stage de fin d’année. Le stage peut aussi être trouvé par
+          l'étudiant.
+        </p>
+      </div>
+      <div class="col-12">
+        <h2 class="text-center">Les établissements partenaires de l'iut</h2>
+        <hr class="hr-3" />
+        <input type="text" placeholder="Rechercher" class="searchbox mx-auto" />
+      </div>
+      <!-- LES STAGES A L'ETRANGER ETABLISSEMENTS-->
+      <div class="row justify-content-center text-center">
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_it_larissa.jpg"
+            alt="image etablissement it larissa"
+          />
+          <div class="text-card" id="it_larissa">
+            <h3>Institut technologique de Larissa</h3>
+            <h4>Grèce – programme Erasmus+ projet de fin d’études</h4>
+            <ul>
+              <li class="p1">Etudiants de DUT INFO et MMI</li>
+              <li class="p2">2 étudiants</li>
+              <li class="p3">Anglais niveau B1</li>
+              <li class="p4">De début avril à fin juin</li>
+            </ul>
+          </div>
+          <form action="https://www.teilar.gr/index_en.php" target="_blank">
+            <button class="ensavoirplus">En savoir +</button>
+          </form>
+        </div>
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_warsaw_university_of_technology.jpg"
+            alt="image etablissement warsaw university"
+          />
+          <div class="text-card" id="univ_varsovie">
+            <h3>Université technologique de Varsovie</h3>
+            <h4>Pologne – programme Erasmus+ projet de fin d’études</h4>
+            <ul>
+              <li class="p1">Etudiants de DUT INFO et MMI</li>
+              <li class="p2">4 étudiants</li>
+              <li class="p3">Anglais niveau B2</li>
+              <li class="p4">De début avril à fin juin</li>
+            </ul>
+          </div>
+          <form action="https://www.pw.edu.pl/engpw" target="_blank">
+            <button class="ensavoirplus">
+              En savoir +
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_univ_timisoara_roumanie.jpg"
+            alt="image etablissement timisoara"
+          />
+          <div class="text-card" id="univ_timisoara">
+            <h3>Université de l’Ouest de Timisoara</h3>
+            <h4>Roumanie – programme Erasmus+ projet de fin d’études</h4>
+            <ul>
+              <li class="p1">Etudiants de DUT INFO et MMI</li>
+              <li class="p2">2 étudiants</li>
+              <li class="p3">Anglais niveau B1</li>
+              <li class="p4">De début avril à fin juin</li>
+            </ul>
+          </div>
+          <form action="https://www.uvt.ro/ro/" target="_blank">
+            <button class="ensavoirplus">En savoir +</button>
+          </form>
+        </div>
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_cegep_montreal.jpg"
+            alt="image etablissement cegep montreal"
+          />
+          <div class="text-card" id="cegep_montreal">
+            <h3>Cegep du vieux Montréal</h3>
+            <h4>Québec – convention de stage</h4>
+            <ul>
+              <li class="p1">Etudiants de DUT TC et GEA</li>
+              <li class="p2">2 étudiants</li>
+              <li class="p3">Français</li>
+              <li class="p4">De début avril à fin juin</li>
+            </ul>
+          </div>
+          <form action="http://www.cvm.qc.ca/Pages/index.aspx" target="_blank">
+            <button class="ensavoirplus">
+              En savoir +
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="carre-container col-lg-5">
+          <img
+            class="img-fluid"
+            src="img/images_etablissements/image_kosen_toyama_college.jpg"
+            alt="image etablissement kosen tohoku"
+          />
+          <div class="text-card" id="kosen_tohoku">
+            <h3>Fédération des Kosen du Tohoku</h3>
+            <h4>Japon – convention de stage</h4>
+            <ul>
+              <li class="p1">Etudiants de DUT INFO et MMI</li>
+              <li class="p2">6 étudiants</li>
+              <li class="p3">Anglais niveau B1</li>
+              <li class="p4">De début avril à fin juin</li>
+            </ul>
+          </div>
+          <form
+            action="https://www.kosen-k.go.jp/english/index.html"
+            target="_blank"
+          >
+            <button class="ensavoirplus">En savoir +</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-12">
+        <h2 class="text-center" id="faq">Foire aux questions</h2>
+        <hr class="hr-4" />
+        <div class="row accordion twcenmt">
+          <div class="col">
+            <div class="tabs">
+              <div class="tab">
+                <input type="checkbox" id="chck1" />
+                <label class="tab-label" for="chck1"
+                  >Qui peut bénéficier d'une expérience à l'étranger ?</label
+                >
+                <div class="tab-content">
+                  Public : les étudiants de première année dans le cadre d’un
+                  stage de courte durée. Il est nécessaire de trouver son stage
+                  soi-même. Les étudiants de deuxième année de DUT ou de licence
+                  professionnelle, lorsqu’ils n’effectuent pas un cursus en
+                  alternance, peuvent bénéficier des contacts de l’IUT. Ces
+                  étudiants peuvent également trouver un stage à l’étranger par
+                  leurs propres moyens.
+                </div>
+              </div>
+              <div class="tab">
+                <input type="checkbox" id="chck2" />
+                <label class="tab-label" for="chck2"
+                  >Comment postuler pour une expérience à l'étranger ?</label
+                >
+                <div class="tab-content">
+                  Des réunions d’information régulières permettent aux étudiants
+                  de se tenir informer des démarches à effectuer, qui peuvent
+                  varier d’un pays à l’autre. L’IUT de Lens aide et accompagne
+                  les étudiants dans la construction de leur dossier de
+                  candidature et dans la préparation de leur séjour.
+                  <a
+                    href="http://www.univ-artois.fr/international/partir-etudier-letranger/candidature-et-selection"
+                    target="_blank"
+                    ><br />Déposer un dossier de candidature</a
+                  >
+                </div>
+              </div>
+              <div class="tab">
+                <input type="checkbox" id="chck3" />
+                <label class="tab-label" for="chck3"
+                  >Quel niveau de langue est-il requis pour l'étranger ?</label
+                >
+                <div class="tab-content">
+                  Selon les lieux, les niveaux de langue requis peuvent varier.
+                  Les références indiquées pour chaque destination correspondent
+                  aux critères du
+                  <a
+                    href="https://www.france-langue.fr/niveaux-de-francais/"
+                    target="_blank"
+                    >Cadre Européen de Référence pour les langues.</a
+                  >
+                  Les professeurs de langue des différents départements aident
+                  les étudiants à évaluer leur niveau.
+                  <a
+                    href="http://www.univ-artois.fr/formations/la-maison-des-langues"
+                    target="_blank"
+                    >La Maison des Langues de l’Université d’Artois</a
+                  >
+                  propose des ateliers de renforcement et des tests de niveau
+                  gratuits à tous les étudiants de l’Université.
+                </div>
+              </div>
+              <div class="tab">
+                <input type="checkbox" id="chck4" />
+                <label class="tab-label" for="chck4"
+                  >Quelles sont les aides financières pour une expérience à
+                  l'étranger ?</label
+                >
+                <div class="tab-content">
+                  Différentes aides financières existent pour aider les
+                  étudiants à réaliser leur mobilité d’études ou de stage. Les
+                  conditions d’éligibilité et les montants varient en fonction
+                  des financements.
+                  <a
+                    href="http://www.univ-artois.fr/international/partir-etudier-letranger/financements"
+                    target="_blank"
+                    >Plus d’infos sur les financements et les modalités de
+                    demande auprès du Service des Relations Internationales de
+                    l’Université d’Artois.</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 id="contact">Contact</h2>
+      <p class="ligne_gauche">
+        Service des Relations Internationales<br />
+        9 rue du Temple – BP 10665<br />
+        62030 Arras CEDEX<br />
+        France<br />
+        <a href="mailto:sri@univ-artois.fr">Courriel</a>
+      </p>
+      <div class="container-fluid">
+        <div class="col-12 footer">
+          <p class="footer">
+            © 2019 IUT de Lens - Rue de l’université -SP 16 - 62307 LENS Cedex -
+            FRANCE - Tel : +33 (0)3 21 79 32 32
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/menucarre.js"></script>
+    <link rel="stylesheet" href="css/style_menucarre.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/search.js"></script>
+    <script src="js/mark.min.js"></script>
+  </body>
+</html>

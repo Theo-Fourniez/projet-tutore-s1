@@ -1,0 +1,228 @@
+.menu-container {
+  display: flex;
+}
+
+#menu-front {
+  background-color: #f83288;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.menu-carre-2 {
+  background-color: #f19018;
+  z-index: 99;
+  position: absolute;
+  transform: rotate(25deg);
+}
+
+.menu-carre-3 {
+  background-color: #a5d326;
+  z-index: 98;
+  position: absolute;
+  transform: rotate(50deg);
+}
+
+.menu-carre-4 {
+  background-color: #9129ff;
+  z-index: 97;
+  position: absolute;
+  transform: rotate(75deg);
+}
+
+.carre {
+  height: 50px;
+  width: 50px;
+}
+
+@keyframes in25deg {
+  from {
+    transform: rotate(25deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes out25deg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(25deg);
+  }
+}
+
+@keyframes in50deg {
+  from {
+    transform: rotate(50deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes out50deg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(50deg);
+  }
+}
+
+@keyframes in75deg {
+  from {
+    transform: rotate(75deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes out75deg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(75deg);
+  }
+}
+
+.menu-carre-2-anim {
+  -webkit-animation: in25deg 0.6s ease-in-out both;
+  animation: in25deg 0.6s ease-in-out both;
+}
+
+.menu-carre-2-anim-out {
+  -webkit-animation: out25deg 0.6s ease-in-out both;
+  animation: out25deg 0.6s ease-in-out both;
+}
+
+.menu-carre-3-anim {
+  -webkit-animation: in50deg 0.6s ease-in-out both;
+  animation: in50deg 0.6s ease-in-out both;
+}
+
+.menu-carre-3-anim-out {
+  -webkit-animation: out50deg 0.6s ease-in-out both;
+  animation: out50deg 0.6s ease-in-out both;
+}
+
+div.carre.change#menu-front {
+  transition: 1s;
+  background-color: #044883d0;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-3.5px, 4.5px);
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -5.5px);
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 40px;
+  height: 3px;
+  background-color: #333;
+  margin: 2px 0;
+  transition: 0.4s;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 96;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.651);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  text-transform: uppercase;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  background-color: #044883;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+.social-icon {
+  background-color: #044883;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.overlay-content a.overlay-title {
+  font-size: 70px;
+  color: white;
+  background-color: #044883;
+  margin-bottom: 50px;
+}
+/* When you mouse over the navigation links, change their color */
+.overlay a.overlay-text:hover {
+  color: rgba(0, 0, 0, 0.781);
+}
+
+.overlay-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #044883;
+}
+
+.overlay-two a {
+  font-size: 40px;
+  font-weight: bold;
+}
+@media screen and (max-height: 650px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay {
+    font-size: 40px;
+  }
+  .overlay-content a.overlay-title {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+
+  .overlay-content .overlay-text:nth-child(4) {
+    margin-bottom: 0px;
+  }
+  .social-icon a img {
+    height: 40px;
+    width: 40px;
+  }
+}
