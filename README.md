@@ -5,6 +5,7 @@ Projet de groupe avec : Victor Neuville, Thibault Marle
 J'ai utilisé Adobe XD pour créer les maquettes de ce site.  
 Le framework Bootstrap est utilisé pour le responsive design.   
 [Rendu du projet (cliquez ici)](https://theo-fourniez.github.io/projet-tutore-s1/)
+*(La page "Venir à l'IUT" n'était pas à refondre)*
 
 [Site web de l'iut de lens original](http://www.iut-lens.univ-artois.fr/)  
 
