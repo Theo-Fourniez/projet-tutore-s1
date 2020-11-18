@@ -1,4 +1,4 @@
-# Projet tutoré du semestre 2
+# Projet tutoré du semestre 1
 ## Sujet : Refonte du site web de l'IUT de Lens
 Projet de groupe avec : Victor Neuville, Thibault Marle
 
