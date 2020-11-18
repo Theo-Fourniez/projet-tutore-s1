@@ -200,11 +200,11 @@ ul.navbar-nav.ml-auto li.nav-item a.nav-link.logo_social {
   }
   .container-fluid .col-lg-8 ul {
     font-size: 1.4em;
-    list-style-image: url(../img/puce_bleue_xs.svg);
+    list-style-image: url('../img/puce_bleue_xs.svg');
   }
   .container-fluid .col-lg-8 i {
     font-size: 1.6em;
-    list-style-image: url(../img/puce_bleue_xs.svg);
+    list-style-image: url('../img/puce_bleue_xs.svg');
   }
   .container-fluid h1 {
     margin-left: 0;
@@ -265,5 +265,5 @@ ul.navbar-nav.ml-auto li.nav-item a.nav-link.logo_social {
   font-family: "Helvetica Neue";
   text-transform: none;
   font-size: 1.5em;
-  list-style: url(../img/puce_bleue_sm.svg);
+  list-style: url('../img/puce_bleue_sm.svg');
 }

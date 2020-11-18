@@ -24,7 +24,7 @@ img.flag {
   width: 270px;
 }
 h2 ~ ul {
-  list-style: url(../img/puce_bleue_xs.svg);
+  list-style: url('../img/puce_bleue_xs.svg');
   font-family: "Helvetica Neue";
   font-size: 1.1em;
 }

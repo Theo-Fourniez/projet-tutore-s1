@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../font/HelveticaNeue/HelveticaNeue.ttf') format('truetype');
+}
+
+  
+@font-face {
+  font-family: 'Tw Cen MT';
+  src: url('../font/Tw Cen MT/TCM_____.TTF') format('truetype');
+}
+
 .menu-container {
   display: flex;
 }
