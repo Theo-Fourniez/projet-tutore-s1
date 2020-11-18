@@ -1,5 +1,6 @@
 # Projet tutoré du semestre 2
 ## Sujet : Refonte du site web de l'IUT de Lens
+Projet de groupe avec : Victor Neuville, Thibault Marle
 
 J'ai utilisé Adobe XD pour créer les maquettes de ce site.  
 Le framework Bootstrap est utilisé pour le responsive design.   
